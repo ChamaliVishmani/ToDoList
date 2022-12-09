@@ -1,14 +1,19 @@
 * {
-  margin: 0;
-  padding: 0;
+  margin: 100;
+  padding: 100;
 }
 .header {
   background-position: center;
   position: relative;
   opacity: 0.5;
 }
-.parent {
+.taskList {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
+  background-color: #bebebe;
+  max-width: 40%;
+}
+.taskList span:hover {
+  background-color: antiquewhite;
 }
