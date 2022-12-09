@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <!----refresh every 30 seconds-->
+    <meta http-equiv="refresh" content="30" />
     <meta name="viewport" content="width=device-width" , initial-scale="1.0" />
     <title>University website</title>
     <link rel="stylesheet" href="style.css" />
@@ -8,5 +10,15 @@
   <body>
     <section class="header"></section>
     <h1>hello</h1>
+    <input type="text" id="newTask" placeholder="Add new task to do" />
+    <input type="button" value="add task" id="add" onclick="fun()" />
+    <ul id="tasks">
+      <li>item 1</li>
+      <li>item 2</li>
+      <li>item 3</li>
+      <li>item 4</li>
+    </ul>
+
+    <script src="addItem.js"></script>
   </body>
 </html>
